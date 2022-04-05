@@ -1,0 +1,2 @@
+export const POSTS_LOADING_TYPE = 'POSTS_LOADING_TYPE'
+export const GET_POSTS = 'GET_POSTS'
