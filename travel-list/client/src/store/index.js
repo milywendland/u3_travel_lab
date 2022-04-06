@@ -1,11 +1,11 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
-import PostReducer from './reducers/PostReducer'
+import PlaceReducer from './reducers/PlaceReducer'
 
 const store = createStore(
   combineReducers({
-    postState: PostReducer
+    placeState: PlaceReducer
   }),
   composeWithDevTools(applyMiddleware(thunk))
 )

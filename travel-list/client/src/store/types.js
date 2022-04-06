@@ -1,2 +1,2 @@
-export const POSTS_LOADING_TYPE = 'POSTS_LOADING_TYPE'
-export const GET_POSTS = 'GET_POSTS'
+export const PLACES_LOADING_TYPE = 'PLACES_LOADING_TYPE'
+export const GET_PLACES = 'GET_PLACES'
