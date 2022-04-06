@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { connect } from 'react-redux'
+import { LoadPosts } from '../store/actions/PostActions'
 
 const mapStateToProps = ({ postState }) => {
   return { postState }

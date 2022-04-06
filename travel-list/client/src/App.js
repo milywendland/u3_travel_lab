@@ -1,6 +1,6 @@
 import logo from './logo.svg'
 import './App.css'
-import Posts from './componenets/Posts'
+import Posts from './components/Posts'
 
 function App() {
   return (
